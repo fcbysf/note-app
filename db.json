@@ -1,0 +1,95 @@
+{
+  "notes": [
+    {
+      "id": "2",
+      "userId": "12",
+      "title": "saiiid",
+      "NoteContent": "messiiiii",
+      "category": "study",
+      "date": "2025-10-09"
+    },
+    {
+      "id": 3,
+      "userId": "1",
+      "title": "note App",
+      "NoteContent": "react Project with json server APi",
+      "category": "study",
+      "date": "2025-12-29"
+    },
+    {
+      "id": 3,
+      "userId": "1",
+      "title": "learned",
+      "NoteContent": "authentification, CRUD , FILTERS, SEARCH",
+      "category": "work",
+      "date": "2026-01-16"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "youssef",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "userName": "salma",
+      "password": "abcdef"
+    },
+    {
+      "id": "3",
+      "userName": "messi",
+      "password": "12345678"
+    },
+    {
+      "id": "4",
+      "userName": "youssefmsdq",
+      "password": "youmou123"
+    },
+    {
+      "id": "5",
+      "userName": "sddd",
+      "password": "sdnksdnksdnksd"
+    },
+    {
+      "id": "6",
+      "userName": "messi7way",
+      "password": "messi12345"
+    },
+    {
+      "id": "7",
+      "userName": "abdelah",
+      "password": "realizaml"
+    },
+    {
+      "id": "8",
+      "userName": "abdrahman",
+      "password": "abdo1234"
+    },
+    {
+      "id": "9",
+      "userName": "abdozaml",
+      "password": "12345678"
+    },
+    {
+      "id": "10",
+      "userName": "gfhgfhg",
+      "password": "é'\"é('('"
+    },
+    {
+      "id": "11",
+      "userName": "abdo",
+      "password": "12345678"
+    },
+    {
+      "id": "12",
+      "userName": "saiid",
+      "password": "saiid1234"
+    },
+    {
+      "id": "13",
+      "userName": "<script>alert(\"hi\")</script>",
+      "password": "gugiugiugiy"
+    }
+  ]
+}

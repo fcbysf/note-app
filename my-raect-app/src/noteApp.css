@@ -1,0 +1,200 @@
+.leftSide {
+  width: 23%;
+  height: 100vh;
+  padding-right: 22px;
+  float: left;
+  border-right: 2px rgb(56, 56, 56) solid;
+}
+header {
+  border-bottom: 2px solid rgb(56, 56, 56);
+}
+.appContainer {
+  animation: dropdown 1s ease;
+}
+.notesContainer {
+  width: 75%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main {
+  padding-left: 35px;
+}
+.note {
+  width: 38%;
+  height: fit-content;
+  border: 0;
+  background-color: rgba(83, 83, 218, 0.733);
+  margin: 30px 10px 5px 40px;
+  border-radius: 25px;
+  text-indent: 40px;
+  padding: 0 5px 10px 20px;
+  display: block;
+}
+.note p {
+  text-align: center;
+  text-indent: 0px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.date {
+  margin-left: 30px;
+  text-decoration: underline;
+}
+.topCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+}
+.topCard span {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 750;
+  color: rgba(0, 0, 0, 0.808);
+  text-align: center;
+  text-indent: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 174, 187, 0.979);
+  gap: 10px;
+  border: 0;
+  margin-top: 30px;
+}
+.form input {
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.753);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.form input:focus {
+  transform: translateY(-3px);
+  transition: 0.5s ease;
+  box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.349);
+}
+.form select {
+  padding: 10px;
+  border-radius: 9px;
+  outline: 0;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.753);
+  color: black;
+  font-weight: 500;
+  font-size: 1.03rem;
+}
+.form input::placeholder {
+  color: rgba(0, 0, 0, 0.226);
+  font-family: cursive;
+}
+select option {
+  background-color: rgba(212, 212, 212, 0.322);
+}
+.form button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 600;
+  font-family: cursive;
+  color: white;
+  cursor: pointer;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(95, 95, 228);
+}
+.form button:hover {
+  background-color: rgb(69, 69, 187);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+  scale: 1.01;
+}
+
+.nonote {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.buttons {
+  float: right;
+  margin-right: 20px;
+}
+.delete {
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.search {
+  border-radius: 27px;
+  border: 0;
+  outline: 0;
+  visibility: visible;
+    opacity: .98;
+  background-color:rgba(128, 128, 128, 0.753);
+  transition: .8s ease-in-out;
+  color: white;
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 13px;
+}
+#check:checked ~ .right .search {
+  width: 0px;
+  visibility: hidden;
+
+}
+.search:hover{
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 10px rgba(104, 104, 104, 0.603);
+}
+.search::placeholder{
+  opacity: 0.8;
+  color: white;
+}
+
+#svg{
+position: relative; 
+cursor: pointer; 
+right: 38px;
+top: 10px;
+opacity: .8;
+}
+.filterC{
+  margin:30px 0px;
+}
+.hr{
+  width: 375px;
+  margin-top: 20px;
+  position: relative;
+  right: 50px;
+  background-color:rgb(56, 56, 56);
+  height: 3px;
+  border: 0;
+}
+.filterC select{
+  padding: 13px;
+  border-radius: 14px;
+  outline: 0;
+  border: 0 ;
+  width: 300px;
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.726);
+}
+select option{
+  opacity: .9;
+  color: rgba(128, 128, 128, 0.89);
+  background-color: rgba(233, 233, 233, 0.836);
+  border: 0;
+  border-radius: 10px;
+}

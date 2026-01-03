@@ -1,0 +1,111 @@
+.loginContainer{
+    width: 100%;
+    height: 100vh;
+    background: url("/images/stickyNote.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    animation:dropdown 1s ease;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.loginDiv{
+    margin-top: 50px;
+    width: 40%;
+    height: fit-content;
+    padding:15px 0px 45px 0px;
+    backdrop-filter: blur(7px); 
+    border-radius: 20px;  
+    box-shadow: 8px 8px 15px rgba(80, 80, 80, 0.664),
+    -8px -8px 15px rgba(80, 80, 80, 0.664);
+}
+.logininputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.logininputs input{
+    padding: 20px;
+    border: 0;
+    border-radius: 15px;
+    outline: 0px;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin-top: 20px;
+}
+.logininputs input::placeholder{
+    font-size: 1.2em;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.781);
+}
+.logininputs input:focus{
+    transform: translate(-2px);
+    box-shadow: 8px 8px 15px rgba(36, 36, 36, 0.664);
+    transition: 0.5s ease;
+}
+.logininputs button{
+      background: linear-gradient(
+    90deg,
+    rgb(248, 86, 113),
+    rgba(255, 255, 56, 0.952)
+  );
+  color: rgba(255, 255, 255, 0.87);
+  padding: 13px;
+  border: 0;
+  border-radius: 10px;
+  width: 100%;
+  margin:10px auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.logininputs button:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+  transition: 0.2s ease;
+}
+.logininputs .aa{
+    color: white;
+    display: inline-block;
+    width: fit-content;
+
+}
+.logininputs .aa:hover{
+    scale: 1.05;
+    color: rgba(230, 230, 230, 0.719);
+}
+.Navlink{
+    width: 70%;
+    margin: auto;
+}
+.loading{
+    text-align: center;
+    font-size: 2rem;
+    width: 300px;
+    margin:200px auto;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 40px 50px;
+    animation: 4s steps(20) infinite loading;
+}
+@keyframes loading{
+    0%{
+        width: 0%;
+        text-align: start;
+        background-color: white;
+        color: black;
+    }
+    100%{
+        width: 200px;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    }
